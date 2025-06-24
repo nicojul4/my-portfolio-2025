@@ -4,7 +4,7 @@
 
 Selamat datang di repositori kode sumber untuk website portofolio pribadi saya. Website ini dirancang untuk menjadi sebuah etalase digital yang menampilkan perjalanan, keahlian, dan proyek-proyek yang telah saya kerjakan di bidang teknologi, dengan fokus pada Web Development, UI/UX, dan Cybersecurity.
 
-**[➡️ Lihat Demo Live](https://vercel.com/nicojul4s-projects/my-portfolio-2025)**
+**[➡️ Lihat Demo Live](https://my-portfolio-2025-six-xi.vercel.app/)**
 
 
 ### ✨ Fitur Utama
