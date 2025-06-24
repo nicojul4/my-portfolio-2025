@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Responsive Website | Nicolas Julian</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- EmailJS SDK -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Nicolas.</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div id="clock">00:00:00 WIB</div>
+    </header>
+
+    <div class="bars-box">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <section class="home active" id="home">
+      <div class="home-detail">
+        <h1>Nicolas Julian</h1>
+        <h2>I'm a <span class="typing-text"></span></h2>
+        <p>
+          A dedicated tech enthusiast with a broad skill set in Web Development,
+          Backend Development, UI/UX, and Pentester. I am driven by the
+          challenge of solving complex problems in Cyber Security also in
+          Penetration Tester and creating beautiful, high-performance websites
+          from the ground up.
+        </p>
+        <div class="btn-sci">
+          <a
+            href="https://docs.google.com/document/d/1QDzRenhYmZB31jdHNBuRX446ee3nHexB/edit?usp=sharing&ouid=105453700973980708406&rtpof=true&sd=true"
+            class="btn"
+            >My CV</a
+          >
+          <div class="sci">
+            <a href="https://github.com/nicojul4"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/nicojuli4/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://discord.com/channels/nicolaslas34"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+            <a href="https://www.instagram.com/nico_j23/"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://wa.me/6281413309364"
+              ><i class="fa-brands fa-square-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <div class="img-circle-clip">
+          <img src="images/foto.png" alt="Nicolas Julian" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-code"></i>
+            <a href="https://github.com/nicojul4" target="_blank"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </div>
+          <h3>Web Development | Frontend</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit atque
+            quibusdam itaque rerum, tempore voluptatem tempora voluptate vel,
+            doloremque dolorem quod numquam officia maxime similique facere
+            aliquam expedita a totam.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-laptop-file"></i>
+            <a href="https://tryhackme.com/p/ju4l" target="_blank"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </div>
+          <h3>Pentester | Learn TryHackMe</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit atque
+            quibusdam itaque rerum, tempore voluptatem tempora voluptate vel,
+            doloremque dolorem quod numquam officia maxime similique facere
+            aliquam expedita a totam.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-database"></i>
+            <a
+              href="https://www.coursera.org/learn/sql-data-science"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </div>
+          <h3>Backend Development | Learn MYSQL</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit atque
+            quibusdam itaque rerum, tempore voluptatem tempora voluptate vel,
+            doloremque dolorem quod numquam officia maxime similique facere
+            aliquam expedita a totam.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-paintbrush"></i>
+            <a
+              href="https://storymaps.arcgis.com/stories/a6de208114284a009cca5c1ba7d5291d"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </div>
+          <h3>UI/UX Designer</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit atque
+            quibusdam itaque rerum, tempore voluptatem tempora voluptate vel,
+            doloremque dolorem quod numquam officia maxime similique facere
+            aliquam expedita a totam.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="fa-solid fa-photo-film"></i>
+            <a href="https://youtu.be/iLsQDItBf_g" target="_blank"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></a>
+          </div>
+          <h3>Video Editing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit atque
+            quibusdam itaque rerum, tempore voluptatem tempora voluptate vel,
+            doloremque dolorem quod numquam officia maxime similique facere
+            aliquam expedita a totam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume" id="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            With a dynamic skill set that bridges development, design, and
+            cybersecurity, I bring a unique and holistic perspective to every
+            project. I am a dedicated problem-solver, passionate about building
+            secure, efficient, and user-centric applications. Explore the
+            sections here to learn more about my technical background,
+            experience, and what I can bring to your team.
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, tempore omnis.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2018 - 2024</p>
+                <h3>Junior Frontend Developer</h3>
+                <p class="company">Coming Soon.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat excepturi reiciendis totam vero cumque nostrum.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2024 - 2026</p>
+                <h3>Junior Pentester</h3>
+                <p class="company">Coming Soon.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat excepturi reiciendis totam vero cumque nostrum.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2027 - 2029</p>
+                <h3>Junior UI/UX Designer</h3>
+                <p class="company">Coming Soon.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat excepturi reiciendis totam vero cumque nostrum.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2029 - 2031</p>
+                <h3>Junior Backend Developer</h3>
+                <p class="company">Coming Soon.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat excepturi reiciendis totam vero cumque nostrum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, tempore omnis.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2020 - 2024</p>
+                <h3>My Major is Science</h3>
+                <p class="company">SMA Strada St. Thomas Aquino</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  mollitia impedit ipsa. Assumenda error corrupti quia iusto
+                  laborum, culpa omnis.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2024 - 2028</p>
+                <h3>My Major is Information Technology</h3>
+                <p class="company">Pradita University</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  mollitia impedit ipsa. Assumenda error corrupti quia iusto
+                  laborum, culpa omnis.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2025</p>
+                <h3>Cybersecurity Course ITBOX</h3>
+                <p class="company">Course ITBOX</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  mollitia impedit ipsa. Assumenda error corrupti quia iusto
+                  laborum, culpa omnis.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">15 Maret 2025</p>
+                <h3>Data Science Experience With SAP</h3>
+                <p class="company">Pradita University</p>
+                <p>
+                  The ASEAN Data Science Explorers 2025 Enablement Session - SAP
+                  Analytics Cloud Training Sessions
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">25 Januari - 13 April 2025</p>
+                <h3>Certified CTF Competition Online</h3>
+                <p class="company">Universitas Hasanuddin</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  mollitia impedit ipsa. Assumenda error corrupti quia iusto
+                  laborum, culpa omnis.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">17 - 18 Juli 2025</p>
+                <h3>HackAtom Competition</h3>
+                <p class="company">Badan Riset Dan Inovasi Nasional</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  mollitia impedit ipsa. Assumenda error corrupti quia iusto
+                  laborum, culpa omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, tempore omnis.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-brands fa-js"></i>
+                <span>Javascript</span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-solid fa-database"></i>
+                <span>MySQL </span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-brands fa-php"></i>
+                <span>PHP</span>
+              </div>
+              <div class="resume-item">
+                <img
+                  src="https://flagcdn.com/w40/jp.png"
+                  alt="Japan Flag"
+                  style="
+                    width: 8.7rem;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                  "
+                />
+                <span>Japanese</span>
+              </div>
+              <div class="resume-item">
+                <img
+                  src="https://flagcdn.com/w40/us.png"
+                  alt="US Flag"
+                  style="
+                    width: 8.7rem;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                  "
+                />
+                <span>American</span>
+              </div>
+              <div class="resume-item">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
+              </div>
+              <div class="resume-item">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg"
+                  alt="Arduino Logo"
+                  style="
+                    width: 8.7rem;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                  "
+                />
+                <span>IoT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, tempore omnis.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name <span>Nicolas Julian</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Gender <span>Male</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Age <span>18 Years Old</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Status <span>Students</span></p>
+              </div>
+              <div class="resume-item">
+                <p>City <span>Tangerang Selatan</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Nationality <span>Indonesian</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Experience <span>No Experience</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Part Time <span>Available</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Phone <span>(+62) 814 1330 9364</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Email <span>nicjkp23@gmail.com</span></p>
+              </div>
+              <div class="resume-item">
+                <p>
+                  Language
+                  <span>English, Japanese, Mandarin, and Indonesian</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Portfolio With Bootstrap</h3>
+            <p>
+              This is my first portfolio project i made with HTML, CSS, and
+              Bootstrap.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, Javascript and Bootstrap</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Website Interactive</h3>
+            <p>
+              This is my second portfolio project i made with HTML, CSS, and
+              Bootstrap. This website was created to fulfill an assignment for
+              the Introduction to Information Systems course, specifically to
+              learn about Networking!
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, Javascript, and Bootstrap</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Blog Project Pancasila | Semester 2</h3>
+            <p>
+              This project, titled
+              <strong>"Pancasila Blog Project | Semester 2"</strong>, represents
+              an academic assignment focused on the values and application of
+              Pancasila in contemporary student life. As part of a group
+              initiative, we explored financial challenges faced by middle-class
+              university students, using Universitas Pradita as a case study.
+              This blog serves as a platform to reflect critical thinking,
+              research, and collaboration, while utilizing Nicepage as the
+              development tool for a responsive and modern design.
+            </p>
+            <div class="tech">
+              <p>Nicepage</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Printer Database Automation GUI</h3>
+            <p>
+              This project involves building a JavaFX-based Point of Sale (POS)
+              printer application with database integration via Hibernate ORM.
+              It follows SOLID principles and incorporates multiple design
+              patterns
+            </p>
+            <div class="tech">
+              <p>JavaFX, Gradle, Diagram PUML, and MYSQL</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+            <h3>Blog Timeline Agama | Semester 1</h3>
+            <p>
+              This project, titled
+              <strong>"Religious Studies Timeline Blog | Semester 1"</strong>,
+              showcases a chronological portfolio developed using
+              <em>HTML, CSS, and JavaScript</em>. The blog presents key insights
+              and topics discussed throughout the first semester of Religious
+              Studies in the 2024 odd term. Designed with a timeline layout, the
+              project emphasizes clarity, visual storytelling, and user-friendly
+              navigation, reflecting both technical proficiency and content
+              engagement. It serves as a creative platform to document student
+              learning progress over time.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, and Javascript</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Game Suwit Jawa</h3>
+            <p>
+              Welcome to the Suwit Jawa Game! Suwit Jawa is a traditional
+              Indonesian hand game similar to Rock-Paper-Scissors, where players
+              choose between <strong>Elephant</strong> (Gajah),
+              <strong>Human</strong> (Orang), or <strong>Ant</strong> (Semut).
+              Each choice has its own strengths: Elephant defeats Human, Human
+              defeats Ant, and Ant defeats Elephant. Play against the computer,
+              test your luck, and enjoy the classic fun of Suwit Jawa!
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, and Javascript</p>
+            </div>
+            <div class="live-github">
+              <a href="https://vercel.com/nicojul4s-projects" target="_blank"
+                ><i class="fa-solid fa-arrow-left"></i
+                ><span>Live Project</span></a
+              >
+              <a href="https://github.com/nicojul4" target="_blank"
+                ><i class="fa-brands fa-github"></i
+                ><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <div class="portofolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img
+                  src="images/portofolio-png-1750747347166.png"
+                  alt="Project 1"
+                />
+              </div>
+              <div class="img-item">
+                <img src="images/grup4-png-1750747462582.jpg" alt="Project 2" />
+              </div>
+              <div class="img-item">
+                <img src="images/project-pancasila.png" alt="Project 3" />
+              </div>
+              <div class="img-item">
+                <img
+                  src="images/JavaFX-Project-Semester2.png"
+                  alt="Project 4"
+                />
+              </div>
+              <div class="img-item">
+                <img
+                  src="images/blog-timeline-agama-png-1750747587711.jpg"
+                  alt="Project 5"
+                />
+              </div>
+              <div class="img-item">
+                <img src="images/suwit-jawa-game.jpg" alt="Project 6" />
+              </div>
+            </div>
+
+            <div class="navigation">
+              <button class="arrow-left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="arrow-right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="portfolio-button-container">
+            <a
+              href="https://myportofolio-tau-blush.vercel.app/"
+              class="view-website-btn active"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+            <a
+              href="https://grup4-pti.vercel.app/website.html"
+              class="view-website-btn"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+            <a
+              href="https://aditapancasila2.nicepage.io/"
+              class="view-website-btn"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+            <a
+              href="https://github.com/nicojul4/projectUAS"
+              class="view-website-btn"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+            <a
+              href="https://project-uas-agama-eoihu8rse-nicojul4s-projects.vercel.app/blog-timeline.html"
+              class="view-website-btn"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+            <a
+              href="https://game-suwit-jawa-mocha.vercel.app/"
+              class="view-website-btn"
+              target="_blank"
+              >Lihat Situs Web</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Have a project you'd like to discuss, or just a question? I'm here
+            to help. Send a message using the contact form, and I will do my
+            best to respond promptly. Let's create something amazing together!
+            Currently available for freelance work and actively seeking new
+            opportunities. While I am a versatile developer, I have a special
+            focus on cybersecurity, particularly in Penetration Testing, to
+            ensure your applications are robust and secure. If you're looking
+            for a developer who prioritizes security to bring your ideas to
+            life, I would love to hear from you. Let's connect and discuss how
+            we can collaborate to achieve your goals.
+          </p>
+          <div class="contact-detail">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <span>(+62) 814 1330 9364</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <span>nicjkp23@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="detail">
+              <p>Address</p>
+              <span>Jalan Asri Lestari III, Medang Lestari Blok A3 J/14</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form id="contactForm">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+                required
+              />
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Email Subject"
+                required
+              />
+            </div>
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <div id="alert" class="alert"></div>
+            <button type="submit" class="btn" id="submitBtn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
